@@ -35,9 +35,10 @@ To run this project
 ```
 
   
-## Authors
+## Developers
 
 - [@iammtw](https://www.github.com/iammtw)
+- [@khurramzeeshannawaz](https://github.com/KhurramZeeshanNawaz)
 
   
 ## Appendix

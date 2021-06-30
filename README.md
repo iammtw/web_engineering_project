@@ -1,5 +1,5 @@
 
-# Project Title
+# EShop
 
 Ecomerece Project implemented using MERN Stack
 - Mongo

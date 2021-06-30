@@ -43,6 +43,6 @@ To run this project
 ## Appendix
 
 This project is our Semester project for Web Engineering Subject.
-Build with MERN Stack Technology using CLoudinary.com api for Storing images.
+Build with MERN Stack Technology using Cloudinary.com api for Storing images.
 
   

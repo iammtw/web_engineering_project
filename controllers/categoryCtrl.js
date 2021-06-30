@@ -19,9 +19,8 @@ const categoryCtrl = {
             if(category) return res.status(400).json({msg: "This category already exists."})
 
             const newCategory = new Category({name})
-
             await newCategory.save()
-            res.json({msg: "Created a category"})
+            res.json({msg: "Category Created"})
         } catch (err) {
             return res.status(500).json({msg: err.message})
         }
@@ -43,8 +42,7 @@ const categoryCtrl = {
         try {
             const {name} = req.body;
             await Category.findOneAndUpdate({_id: req.params.id}, {name})
-
-            res.json({msg: "Updated a category"})
+            res.json({msg: "Category Updated"})
         } catch (err) {
             return res.status(500).json({msg: err.message})
         }
